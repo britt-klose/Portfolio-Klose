@@ -5,82 +5,79 @@ page and boxed elements */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-      color: white
 }
 
 /* Styling of the header*/
-/*.header {
-    padding: 20px;
+.jumbotron {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /*background-color: #8d9091;
-}*/
-/* Controls font of my name */
-/*.header h1 
-    {display: inline-block;
-    font-size: 48px }
-
+    background-color: #Edc7b7;
+    color: #ac3b61;
+}
 
 /* Layout of items in Nav Bar*/
-/*.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+.nav-item {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    margin-right: 45px;
+}
+.nav-link{
+    color:#ac3b61;
 }
 
-/*format for listed items in nav bar */
-/*.header div ul li { 
-    display: inline-block;
-    margin-left: 25px;
-}
 
 body {
-    background-color: rgb(105, 102, 102);
-    position: relative; /*added in p-relative
+    background-color: #eee2dc;
+    position: relative; 
 }
-*/
-/* more traits of nav bar*/
-/*
+
+
 a {
     text-decoration: none;
 }
-/* Font size for every paragraph 
+ /*Font size for every paragraph */
 p {
     font-size: 16px;
 }
- Affects bio pic in the header
+ /*Affects bio pic in the header */
 .photo {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("linkedinpic.jpg");
+    height: 480px;
+    width: 40%;
+    margin-top: 35px;
+    margin-left: 60px;
+    background-image: url("images/linkedinpic.jpg");
     background-size: cover;
     background-position: center;
 }
 
-/* display for h2 about me and contact 
-.float-left {
-    float: left;
-    margin-right: 25px;}
-
-/* alignment for work paragraph 
+ /*alignment for work paragraph */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-Controls space of p boxes in the main body 
+/*Controls space of p boxes in the main body */
 .content {
     width: 85%;
     display: inline-block;
     margin-left: 65px;}
+/* About me card*/
+#bio{
+    float: right;
+    height: 480px;
+    margin-top: -480px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    background-color: #Edc7b7;
+    color:#123c69;
+    
+}
+/* Project cards/grid*/
 
 .main-info {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   background-color: #65747c;
+   background-color: #bab2b5;
 }
 
 .main-info img {
@@ -92,22 +89,37 @@ Controls space of p boxes in the main body
     font-size: 40px;
 }
 
-
- Footer 
+/* Footer  */
 .footer {
     padding: 30px;
-    clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    position: absolute; 
 }
 .footer h2 {
     font-size: 20px;
+    text-align: center;
+    color: #ac3b61;
 }
 
 .footer ul li {
     display: inline-block;
-    margin-top: 20px;
-    text-align:left;
-    margin-right: 80px;
-}*/
+    margin-top: 20px;  
+}
+
+#git{
+    width: 40px;
+    height: 40px;
+    margin-right: -300px;
+    color: #123c69;
+}
+#email{
+    width: 40px;
+    height: 40px;
+    margin-left: -300px;
+    color:#123c69
+}
+#linked{
+    width: 40px;
+    height: 40px;
+    color:#123c69
+}
