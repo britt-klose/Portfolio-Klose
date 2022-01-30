@@ -3,42 +3,43 @@
 
 <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
 </head>
 
 <!--Body-->
 
-<body>
+<body class="min-100-vh">
     <!--Header-->
-    <div class="header">
-        <h1>Brittany Klose</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#about">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work Experience</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-                <li>
-                    <a href= "#resume">Resume</a>
-                    <!--link to resume pdf
-                    file:///C:/Users/britt/Downloads/Klose%20resume%20as%20of%20nov%202021.PDF-->
-                </li>
-            </ul>
-        </div>
-    </div>
+    <header class="jumbotron">
+        <h1 class="display-3" id="home">Brittany Klose</h1>
+    </header>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+      </ul>
+        
+<!--Picture of me-->
     <div class="photo"></div>
 
-    <!--Nav Bar With links to section of page
-    ids are for links to sections and classes are for css styling of info boxes-->
     <div class="content">
         <div id= "about" class="main-info">
-           <!--<img src="hawaii.jpg" class="float-left" />--> 
             <h2>About Me</h2>
             <p>
                      Brittany graduated from college at the University of Tampa, in May of 2021 with a degreee in marketing. 
@@ -64,11 +65,15 @@
                 brittany.klose@yahoo.com
             </li>
             <li>
-                LinkedIn
-                <!-- href="https://www.linkedin.com/in/brittany-klose-3a25a7143/"-->
+                <a  href="https://www.linkedin.com/in/brittany-klose-3a25a7143/">
+                    LinkedIn
+                </a>
             </li>
             <li>
-                425-495-2453  <!--put in phone emoji-->
+                425-495-2453  
+            </li>
+            <li>
+                GitHub
             </li>
         </ul>
        
