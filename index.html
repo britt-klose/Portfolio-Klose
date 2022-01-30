@@ -17,6 +17,7 @@
     <header class="jumbotron">
         <h1 class="display-3" id="home">Brittany Klose</h1>
     </header>
+    <!--Nav bar items-->
     <ul class="nav justify-content-end">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#home">Home</a>
@@ -31,25 +32,26 @@
           <a class="nav-link" href="#contact">Contact</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#resume">Resume</a>
+            <a class="nav-link" href="Klose_coding-resume.pdf" target="_blank"> Resume</a>
           </li>
       </ul>
         
 <!--Picture of me-->
     <div class="photo"></div>
 
-    <div class="content">
-        <div id= "about" class="main-info">
-            <h2>About Me</h2>
-            <p>
-                     Brittany graduated from college at the University of Tampa, in May of 2021 with a degreee in marketing. 
-                After moving back home to Pennsylvania, and taking some time off she realized she wanted to explore more fields. Coding was something she had always wanted to 
-                try, but had never done before. She decided to try, and began the Coding Bootcamp with Upenn. She quickly found a passion in it
-                and soon her horizon was broadened. Since then she has completed many great projects as can be seen below under work. 
-            </p>
+    <div class="card" id="bio" style="width: 27rem;">
+        <div class="card-body">
+          <h4 class="card-title" id="about">About Me</h4>
+          <p class="card-text">Brittany graduated from college at the University of Tampa, in May of 2021 with a degreee in marketing. 
+            After moving back home to Pennsylvania, and taking some time off she realized she wanted to explore more fields. Coding was something she had always wanted to 
+            try, but had never done before. She decided to try, and began the Coding Bootcamp with Upenn. She quickly found a passion in it
+            and soon her horizon was broadened. Since then she has completed many great projects as can be seen below under work. </p>
         </div>
+      </div>
+
+    <div class="content">
+    <!--Projects-->
         <div id= "work" class="main-info">
-            <img src="bio-pic.jpg" class="float-right" />
             <h2>Work Experience</h2>
             <p>
                  Take a look at some of my projects! Click on the images to see more.
@@ -62,22 +64,24 @@
         <h2>Connect With Me!</h2>
         <ul>
             <li>
-                brittany.klose@yahoo.com
+                <a href="mailto: brittany.klose@yahoo.com">
+                    <span class="iconify" id="email" data-icon="dashicons:email"></span>
+                  </a>
             </li>
             <li>
-                <a  href="https://www.linkedin.com/in/brittany-klose-3a25a7143/">
-                    LinkedIn
+                <a  href="https://www.linkedin.com/in/brittany-klose-3a25a7143/" target="_blank">
+                    <span class="iconify" id="linked" data-icon="logos:linkedin-icon"></span>
                 </a>
             </li>
             <li>
-                425-495-2453  
-            </li>
-            <li>
-                GitHub
+                <a  href="  https://github.com/britt-klose" target="_blank">
+                    <span class="iconify" id= "git" data-icon="icon-park:github"></span>
+                </a>
             </li>
         </ul>
        
     </div>
+    <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
 </body>
 
 </html>
