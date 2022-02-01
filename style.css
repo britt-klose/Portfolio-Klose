@@ -71,24 +71,46 @@ p {
     
 }
 /* Project cards/grid*/
-
-.main-info {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   background-color: #bab2b5;
+#projectcards{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 300;
 }
 
-.main-info img {
-    max-height: 200px;
+#featured{
+    padding: 2px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: #123c69
+}
+
+.media-content{
+    color:#eee2dc;
+}
+
+.card-image{
+    height: 100%;
+    width: 100%;
+}
+.main-info {
+    margin-bottom: 3px; /*was 20*/
+    padding: 30px;/*was 50*/
+    height: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: #bab2b5;
+   color:#123c69;
 }
 
 .main-info h2 {
     margin-bottom: 20px;
     font-size: 40px;
 }
-
+.main-info p{
+  
+    font-weight: 30px;
+    font-size: medium;
+}
 /* Footer  */
 .footer {
     padding: 30px;
