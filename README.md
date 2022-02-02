@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Description
-Welcome to my portfolio! Here you will find some of my best projects and works, along with some more information about me! My contact information is at the bottom with my email and links to my Linkedin and GitHub account. You can also view screen shot of the appliation below.
+Welcome to my portfolio! Here you will find some of my best projects and works, along with some more information about me! My contact information is at the bottom with my email and links to my Linkedin and GitHub account. You can also view the screen shot of the appliation below.
 
 
 ## Application
