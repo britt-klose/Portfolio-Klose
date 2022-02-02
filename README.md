@@ -9,7 +9,7 @@ The following displays a sneak peek of the portfolio along with the link to the 
 
 link: https://britt-klose.github.io/hw2.0-Portfolio-Klose/
 
-    ![alt text](images/linkedinpic.png)
+![alt text](images/2022-02-01.png)
 
 # Used Tools
     - CSS
