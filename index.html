@@ -15,7 +15,8 @@
 <body class="min-100-vh">
     <!--Header-->
     <header class="jumbotron">
-        <h1 class="display-3" id="home">Brittany Klose</h1>
+        <h1 class="display-4" id="home">Brittany Klose</h1>
+        <span class="iconify" id="pc" data-icon="fa-solid:laptop"></span>
     </header>
     <!--Nav bar items-->
     <ul class="nav justify-content-end">
@@ -58,10 +59,11 @@
         <div id="work" class="main-info">
             <h2>Work Experience</h2>
             <p id="ptag">
-                Take a look at some of my projects! Click on 'view app' to see it in your browser.
+                Take a look at some of my projects! Click on 'view app' to see the deployed version in your browser, or on 'github' to see the code behind it!.
             </p>
     
             <div class="container is-widescreen is-flex-wrap-wrap" id="projectcards">
+    <!--Project 1 Griffin travel planner-->
                 <div class="card" id="featured">
                     <div class="card-image">
                         <figure class="image is-square">
@@ -72,70 +74,120 @@
                         <div class="media-left"></div>
                         <div class="media-content">
                             <h5 class="card-title">Griffin Travel Planner</h5>
-                            <a href="https://github.com/britt-klose/Project-1-griffins">GitHub:</a>
+                            <a href="https://github.com/britt-klose/Project-1-griffins"
+                            class="btn" id="hub"> <u> See GitHub Repo</u></a>
                             <p class="card-text">Languages used: HTML, CSS, JS, JQuery, Bulma, APIs.</p>
                             <a href="https://britt-klose.github.io/Project-1-griffins/index.html"
-                                class="btn btn-primary">View App</a>
+                                class="btn btn-primary" id="app-btn">View App</a>
                         </div>
                     </div>
                 </div>
 
+    <!--Project 2 electric wipeout-->
                 <div class="card" id="featured">
                     <div class="card-image">
                         <figure class="image is-square">
-                            <img src="./images/weatherdash.png" class="card-img-top">
+                            <img src="./images/electric.png" class="card-img-top">
                         </figure>
                     </div> 
-                    <div class="card-content" id="project-wd">
+                    <div class="card-content" id="project-2">
                         <div class="media-left"></div>
                         <div class="media-content">
-                            <h5 class="card-title">Weather Dashboard</h5>
-                            <a href="https://github.com/britt-klose/Weather-forecast-6">GitHub:</a>
-                            <p class="card-text">Languages used: HTML, CSS, JS, Bootstrap, APIs.</p>
-                            <a href="https://britt-klose.github.io/Weather-forecast-6/"
-                                 class="btn btn-primary">View App</a>
+                            <h5 class="card-title">Mortal Instrument's Music Store</h5>
+                            <a href="https://github.com/smeske10/Electric-Wipeouts-Mortal-Instruments"
+                            class="btn" id="hub"> <u> See GitHub Repo</u></a>
+                            <p class="card-text">Languages used:CSS, JS, Bootstrap, Nodeamailer, Mysql, Node.js, Handlebars.</p>
+                            <a href="https://mortal-instruments-music-shop.herokuapp.com/"
+                                 class="btn btn-primary" id="app-btn">View App</a>
+                        </div>
+                    </div>
+                </div>
+    <!--Project 3 company database-->
+                <div class="card" id="featured">
+                    <div class="card-image">
+                        <figure class="image is-square">
+                            <img src="./images/comp-db.png" class="card-img-top">
+                        </figure>
+                    </div>
+                    <div class="card-content" id="project-3">
+                        <div class="media-left"></div>
+                        <div class="media-content">
+                            <h5 class="card-title">Company Database</h5>
+                            <a href="https://github.com/britt-klose/Company-Database-12"
+                            class="btn" id="hub"> <u> See GitHub Repo</u></a>
+                            <p class="card-text">Languages used: Node.js, JS, and Mysql .</p>
+                            <a href="https://drive.google.com/file/d/1FR4t7W4jol459Yst3KbmyvcDxxbv8dVm/view"
+                                class="btn btn-primary" id="app-btn">View App</a>
                         </div>
                     </div>
                 </div>
 
+    <!--Project 4 my tech blog-->
                 <div class="card" id="featured">
                     <div class="card-image">
                         <figure class="image is-square">
-                            <img src="./images/scheduler.png" class="card-img-top">
+                            <img src="./images/blog.png" class="card-img-top">
                         </figure>
                     </div>
-                    <div class="card-content" id="sched">
+                    <div class="card-content" id="project-4">
                         <div class="media-left"></div>
                         <div class="media-content">
-                            <h5 class="card-title">Daily Scheduler</h5>
-                            <a href="https://github.com/britt-klose/Work-Day-Schedule5">GitHub:</a>
-                            <p class="card-text">Languages used: HTML, CSS, JS, Bootstrap.</p>
-                            <a href="https://britt-klose.github.io/Work-Day-Schedule5/"
-                                class="btn btn-primary">View App</a>
+                            <h5 class="card-title">My Tech Blog</h5>
+                            <a href="https://github.com/britt-klose/MVC-Tech_Blog-14"
+                            class="btn" id="hub"> <u> See GitHub Repo</u></a>
+                            <p class="card-text">Languages used: Handlebars, JS, CSS, Bootstrap, Mysql, Node.js.</p>
+                            <a href="https://britt-blog-heroku.herokuapp.com/"
+                                 class="btn btn-primary" id="app-btn">View App</a>
+                        </div>
+                    </div>
+                </div>
+    <!--Project 5 my profiler generator-->
+                <div class="card" id="featured">
+                    <div class="card-image">
+                        <figure class="image is-square">
+                            <img src="./images/prof-gen.png" class="card-img-top">
+                        </figure>
+                    </div>
+                    <div class="card-content" id="project-5">
+                        <div class="media-left"></div>
+                        <div class="media-content">
+                            <h5 class="card-title">Team Profile Generator</h5>
+                            <a href="https://github.com/britt-klose/Team-Profile-Generator"
+                            class="btn" id="hub"> <u> See GitHub Repo</u></a>
+                            <p class="card-text">Languages used: JS, HTML, CSS, Bootstrap, Node.js.</p>
+                            <a href="https://drive.google.com/file/d/1RHcetlh4kK_cuEdhCoqpMIUx96VB2d0Y/view"
+                                 class="btn btn-primary" id="app-btn">View App</a>
+                        </div>
+                    </div>
+                </div>
+     <!--Project 6 E-commerce-->
+                <div class="card" id="featured">
+                    <div class="card-image">
+                        <figure class="image is-square">
+                            <img src="./images/eccom.png" class="card-img-top">
+                        </figure>
+                    </div>
+                    <div class="card-content" id="project-6">
+                        <div class="media-left"></div>
+                        <div class="media-content">
+                            <h5 class="card-title">E-Commerce Website</h5>
+                            <a href="https://github.com/britt-klose/ECommerce-Website"
+                            class="btn" id="hub"> <u> See GitHub Repo</u></a>
+                            <p class="card-text">Languages used: JS, HTML, CSS, Bootstrap, Node.js.</p>
+                            <a href="https://drive.google.com/file/d/1us9kbyYaCduj1NRfKQv3wJvq0cUuQE-d/view"
+                                class="btn btn-primary" id="app-btn">View App</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="card" id="featured">
-                    <div class="card-image">
-                        <figure class="image is-square">
-                            <img src="./images/codegen.png" class="card-img-top">
-                        </figure>
-                    </div>
-                    <div class="card-content" id="password">
-                        <div class="media-left"></div>
-                        <div class="media-content">
-                            <h5 class="card-title">Password Generator</h5>
-                            <a href="https://github.com/britt-klose/Code-Generator4">GitHub:</a>
-                            <p class="card-text">Languages used: HTML, JS.</p>
-                            <a href="https://britt-klose.github.io/Code-Generator4"
-                                 class="btn btn-primary">View App</a>
-                        </div>
-                    </div>
-                </div>
             </div> <!--end of container-->
         </div> <!--end of main info div-->
     </div> <!--end of content class-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     
         <!--Footer-->
                 <div id="contact" class="footer">
@@ -159,6 +211,9 @@
                     </ul>
 
                 </div>
+                <br>
+                <br>
+                <br>
             <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
                 
     </body>
