@@ -10,9 +10,17 @@ page and boxed elements */
 /* Styling of the header*/
 .jumbotron {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #Edc7b7;
-    color: #ac3b61;
-    height: 160px;
+    background-color: #293241;
+    color: #98c1d9;
+    height: 150px;
+}
+
+#pc{
+    margin-left: 80%;
+    margin-top: -125px;
+    color:#98c1d9;
+    width: 110px;
+    height: 110px;
 }
 
 /* Layout of items in Nav Bar*/
@@ -22,12 +30,12 @@ page and boxed elements */
     margin-right: 45px;
 }
 .nav-link{
-    color:#ac3b61;
+    color:#293241;
 }
 
 
 body {
-    background-color: #eee2dc;
+    background-color: #e0fbfc;
     position: relative; 
 }
 
@@ -67,27 +75,44 @@ p {
     margin-top: -480px;
     margin-right: 60px;
     margin-bottom: 20px;
-    background-color: #Edc7b7;
-    color:#123c69;
+    background-color: #293241;
+    color:#98c1d9;
     
 }
+
+
 /* Project cards/grid*/
 #projectcards{
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     height: auto;
-    width: 300;
+    width: 88%;
+}
+
+.content{
+margin-left: 7%
 }
 
 #featured{
     padding: 2px;
-    margin-right: 10px;
+    margin-left: 15%;
     margin-bottom: 20px;
-    background-color: #123c69
+    background-color: #3d5a80
+}
+
+#app-btn{
+    background-color: #293241;
+}
+
+#hub{
+    color: #e0fbfc;
+}
+#hub:hover{
+    color: #9fa7a7;
 }
 
 .media-content{
-    color:#eee2dc;
+    color:#e0fbfc;
 }
 
 .card-image{
@@ -95,12 +120,13 @@ p {
     width: 100%;
 }
 .main-info {
-    margin-bottom: 3px; /*was 20*/
-    padding: 30px;/*was 50*/
-    height: 500px;
+    align-self: center;
+    margin-bottom: 3px; 
+    padding: 30px;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   background-color: #bab2b5;
-   color:#123c69;
+    background-color: #98c1d9;
+    color:#293241;
 }
 
 .main-info h2 {
@@ -108,7 +134,6 @@ p {
     font-size: 40px;
 }
 .main-info p{
-  
     font-weight: 30px;
     font-size: medium;
 }
@@ -121,7 +146,7 @@ p {
 .footer h2 {
     font-size: 20px;
     text-align: center;
-    color: #ac3b61;
+    color: #293241;
 }
 
 .footer ul li {
@@ -133,16 +158,16 @@ p {
     width: 40px;
     height: 40px;
     margin-right: -300px;
-    color: #123c69;
+    color: #3d5a80;
 }
 #email{
     width: 40px;
     height: 40px;
     margin-left: -300px;
-    color:#123c69
+    color:#3d5a80
 }
 #linked{
     width: 40px;
     height: 40px;
-    color:#123c69
+    color:#3d5a80
 }
