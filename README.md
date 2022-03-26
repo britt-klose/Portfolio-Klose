@@ -3,21 +3,39 @@
 ## Description
 Welcome to my portfolio! Here you will find some of my best projects and works, along with some more information about me! My contact information is at the bottom with my email and links to my Linkedin and GitHub account. You can also view the screen shot of the appliation below.
 
+  ## Table of Contents
 
-## Application
-The following displays a sneak peek of the portfolio along with the link to the deployed application.
+* [Used Tools](#used)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-link: https://britt-klose.github.io/hw2.0-Portfolio-Klose/
-
-![alt text](images/2022-02-01.png)
-
-# Used Tools
+## Used Tools
     - CSS
     - Bootstrap
     - HTML
 
+## Usage
+Follow this link to view my portfolio website!
+link: https://britt-klose.github.io/hw2.0-Portfolio-Klose/
 
+![alt text](images/readme-pic.png)
 
+## License
+This application has no license 
+
+## Contributing
+Contribution is not available for this site. 
+
+## Tests
+There are no tests to run on this application
+
+## Questions
+For any additional questions or issues, you can reach out to me 
+via email at brittany.klose@yahoo.com
+Otheriwise fee free to further view my work on my github page at [britt-klose](https://github.com/britt-klose/).
 
 
 
