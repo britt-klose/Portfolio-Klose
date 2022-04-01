@@ -19,9 +19,9 @@ Welcome to my portfolio! Here you will find some of my best projects and works, 
 
 ## Usage
 Follow this link to view my portfolio website!
-link: https://britt-klose.github.io/hw2.0-Portfolio-Klose/
+link: https://britt-klose.github.io/Portfolio-Klose/
 
-![alt text](images/readme-pic.png)
+![alt text](images/readpic-2.png)
 
 ## License
 This application has no license 
